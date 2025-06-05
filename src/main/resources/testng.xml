@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="UniversalBrowserTestSuite">
+    
+    <!-- Test with Chrome browser -->
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.coherentsolutions.java.webauto.section01.UniversalLoginTest"/>
+        </classes>
+    </test>
+    
+    <!-- Test with Safari browser -->
+    <test name="SafariTest">
+        <parameter name="browser" value="safari"/>
+        <classes>
+            <class name="com.coherentsolutions.java.webauto.section01.UniversalLoginTest"/>
+        </classes>
+    </test>
+    
+</suite>
